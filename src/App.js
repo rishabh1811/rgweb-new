@@ -73,11 +73,14 @@ const App = () => {
 				<Route path={"/blog-details/:id"} element={<BlogDetails />}/>
 
 				{/* Service */}
+				<Route path={"/service/"} element={<ServiceOne />}/>
 				<Route path={"/service-one/"} element={<ServiceOne />}/>
 				<Route path={"/service-two/"} element={<ServiceTwo />}/>
 				<Route path={"/service-details/:slug"} element={<ServiceDetails />}/>
 
 				{/* Project  */}
+				<Route path={"/portfolio"} element={<ProjectGridTwo />}/>
+
 				<Route path={"/project-grid-one"} element={<ProjectGridOne />}/>
 				<Route path={"/project-grid-two"} element={<ProjectGridTwo />}/>
 				<Route path={"/project-grid-three"} element={<ProjectGridThree />}/>

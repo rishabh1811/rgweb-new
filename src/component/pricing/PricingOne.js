@@ -21,10 +21,10 @@ const PricingOne = () => {
 
     const [isActive, setActive] = useState("");
 
-    useEffect(() => {
-        setActive(billed[0].label.toLowerCase());
+    // useEffect(() => {
+    //     setActive(billed[0].label.toLowerCase());
 		
-    }, []);
+    // }, []);
 
 
     const handleChange = (e) => {
@@ -35,7 +35,7 @@ const PricingOne = () => {
 
     return (
         <>
-            <div className="pricing-billing-duration">
+            {/* <div className="pricing-billing-duration">
                 <ul>
                     {billed.map((data) => (
                         <li className="nav-item" key={data.id}>
@@ -43,7 +43,7 @@ const PricingOne = () => {
                         </li>
                     ))}
                 </ul>
-            </div>
+            </div> */}
             <div className="row">
                 {getPriceingData.map((data, index) => (
                     <div className="col-lg-4" key={index}>
@@ -53,8 +53,8 @@ const PricingOne = () => {
                                 <span className="subtitle">{data.subtitle}</span>
                                 <div className="price-wrap">
                                     <div className="yearly-pricing">
-                                        <span className="amount">{billed[0].label.toLowerCase() === isActive ? data.yprice : data.mprice }</span>
-                                        <span className="duration">{billed[0].label.toLowerCase() === isActive ? data.yduration : data.mduration }</span>
+                                        <span className="amount">{data.yprice }</span>
+                                        <span className="duration">{data.yduration }</span>
                                     </div>
                                 </div>
                                 <div className="pricing-btn">

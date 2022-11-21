@@ -4,8 +4,8 @@ import HeaderOne from '../common/header/HeaderOne';
 import SEO from '../common/SEO';
 import AboutOne from '../component/about/AboutOne';
 import BannerOne from '../component/banner/BannerOne';
-import BlogOne from '../component/blog/BlogOne';
-import BrandOne from '../component/brand/BrandOne';
+// import BlogOne from '../component/blog/BlogOne';
+// import BrandOne from '../component/brand/BrandOne';
 import CounterUpOne from '../component/counterup/CounterUpOne';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import PricingOne from '../component/pricing/PricingOne';
@@ -47,14 +47,13 @@ const DigitalAgency = () => {
             <AboutOne />
             <ProjectOne />
             <CounterUpOne />
-            <TestimonialOne />
+            {/* <TestimonialOne /> */}
             <div className="section bg-color-light section-padding">
                 <div className="container">
                     <SectionTitle 
                         subtitle="Pricing Plan"
                         title="We’ve built solutions for..."
-                        description="Flexible pricing options for freelancers
-                        and design teams."
+                        description="Flexible pricing options for every business needs."
                         textAlignment=""
                         textColor=""
                     />
@@ -65,8 +64,8 @@ const DigitalAgency = () => {
                     <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-4.png"} alt="shape" /></li>
                 </ul>
             </div>
-            <BrandOne />
-            <BlogOne />
+            {/* <BrandOne /> */}
+            {/* <BlogOne /> */}
             <CtaLayoutOne /> 
         <FooterOne parentClass="" />
         </main>

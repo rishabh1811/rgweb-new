@@ -9,6 +9,7 @@ import SectionTitle from '../elements/section-title/SectionTitle';
 import ServiceProp from '../component/service/ServiceProp';
 import ServiceData from "../data/service/ServiceMain.json";
 import { slugify } from '../utils';
+import AboutThree from '../component/about/AboutThree';
 
 const allData = ServiceData;
 
@@ -162,6 +163,10 @@ const ServiceOne = () => {
                     </div>
                 </div>
             </div>
+
+            <AboutThree />
+
+
             <CtaLayoutOne />
             <FooterOne parentClass="" />
         </main>

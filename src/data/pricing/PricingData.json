@@ -1,17 +1,17 @@
 [
     {
-        "title": "Professional",
+        "title": "Basic",
         "subtitle": "A beautiful, simple website",
         "yprice": "$199.99",
         "yduration": "/yearly",
         "mprice": "$19.99",
         "mduration": "/monthly",
         "facility": [
-            "10 Pages Responsive Website",
-            "5 PPC Campaigns",
-            "10 SEO Keywords",
-            "5 Facebook Camplaigns",
-            "2 Video Camplaigns"
+            "Upto 5 pages",
+            "SEO",
+            "Professional Email",
+            "Free SSL",
+            "Google Analytics"
         ]
     },
     {
@@ -22,11 +22,12 @@
         "mprice": "$29.99",
         "mduration": "/monthly",
         "facility": [
-            "20 Pages Responsive Website",
-            "Unlimited PPC Campaigns",
-            "Unlimited SEO Keywords",
-            "Unlimited Facebook Camplaigns",
-            "Unlimited Video Camplaigns"
+            "5-10 pages",
+            "Advanced SEO",
+            "Professional Email",
+            "Free SSL",
+            "Google Analytics",
+            "Custom Designs"
         ]
     },
     {
@@ -37,11 +38,13 @@
         "mprice": "$59.99",
         "mduration": "/monthly",
         "facility": [
-            "50 Pages Responsive Website",
-            "Unlimited PPC Campaigns",
-            "Unlimited SEO Keywords",
-            "Unlimited Facebook Camplaigns",
-            "Unlimited Video Camplaigns"
+            "5-10 pages",
+            "Advanced SEO",
+            "Professional Email",
+            "Free SSL",
+            "Google Analytics",
+            "Custom Designs",
+            "Global CDN"
         ]
     }
 ]

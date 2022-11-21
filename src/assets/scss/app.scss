@@ -122,4 +122,14 @@ STYLESHEET INDEXING
 =========================================================================*/
 // @import "rtl/rtl";
 
+.my-fontsize {
+    font-size : 18px !important;
+    @media (min-width : 420px) {
+        font-size: 24px !important;
+    }
+
+    @media (min-width : 490px) {
+        font-size: 27px !important;
+    }
+}
 

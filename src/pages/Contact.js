@@ -27,20 +27,20 @@ const Contact = () => {
                     <div className="row">
                         <div className="col-xl-5 col-lg-6">
                             <div className="contact-form-box shadow-box mb--30">
-                                <h3 className="title">Get a free Abstrak quote now</h3>
+                                <h3 className="title">Get a free quote now</h3>
                                 <FormTwo />
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-6 offset-xl-1">
                             <div className="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
                                 <h4 className="title">Phone</h4>
-                                <p>Our customer care is open from Mon-Fri, 10:00 am to 6:00 pm</p>
-                                <h4 className="phone-number"><a href="tel:1234567890">(123) 456 7890</a></h4>
+                                <p>Our customer care is open all days, 10:00 am to 8:00 pm</p>
+                                <h4 className="phone-number my-fontsize"><a href="tel:+918800544810">88005 44810</a></h4>
                             </div>
                             <div className="contact-info mb--30">
                                 <h4 className="title">Email</h4>
                                 <p>Our support team will get back to in 48-h during standard business hours.</p>
-                                <h4 className="phone-number"><a href="mailto:info@example.com">info@example.com</a></h4>
+                                <h4 className="phone-number my-fontsize"><a href="mailto:nameisrishabh@gmail.com">nameisrishabh@gmail.com</a></h4>
                             </div>
                         </div>
                     </div>

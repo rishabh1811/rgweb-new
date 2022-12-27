@@ -21,7 +21,7 @@ const ProjectGridTwo = () => {
                 paragraph ="A quick view of industry specific problems solved with design by the awesome team at Abstrak.
                 "
                 styleClass=""
-                mainThumb="/images/banner/banner-thumb-1.png"
+                mainThumb="/images/banner/banner-thumb-1-portfolio.png"
             />
             <ProjectOne colSize="col-xl-4 col-md-6" columnGap="row-15"/>
             <CtaLayoutOne />

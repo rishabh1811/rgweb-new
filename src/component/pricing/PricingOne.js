@@ -58,7 +58,7 @@ const PricingOne = () => {
                                     </div>
                                 </div>
                                 <div className="pricing-btn">
-                                    <Link to="#" className="axil-btn btn-large btn-borderd">Get Started Today</Link>
+                                    <Link to="/contact" className="axil-btn btn-large btn-borderd">Get Started Today</Link>
                                 </div>
                             </div>
                             <div className="pricing-body">

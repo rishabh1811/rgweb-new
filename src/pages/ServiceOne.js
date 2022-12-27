@@ -36,7 +36,7 @@ const ServiceOne = () => {
                 paragraph ="Give your business a unique logo to stand out from crowd. We’ll create logo specifically for your company.
                 "
                 styleClass=""
-                mainThumb="/images/banner/banner-thumb-4.png"
+                mainThumb="/images/banner/banner-thumb-4-service.png"
             />
             <div className="service-scroll-navigation-area">
 

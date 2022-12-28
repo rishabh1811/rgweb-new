@@ -4,28 +4,28 @@ import SectionTitle from '../../elements/section-title/SectionTitle';
 const Datas = [
     {
         id: 1,
-        title: "Exceed clients’ and colleagues’ expectations",
-        para: "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum, imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim elit."
+        title: "Experienced Team",
+        para: "Our experts have the necessary skills, knowledge and experience to deliver successful projects."
     },
     {
         id: 2,
-        title: "Take ownership and question the status quo in a constructive manner",
-        para: "Nulla facilisi. Vestibulum vel urna eget magna condimentum faucibus. Sed arcu mi, semper sed suscipit vel, rhoncus vel justo."
+        title: "Quality Assurance",
+        para: "We use the latest technologies and tools to detect and correct any errors in the code before delivering the final product to the customer."
     },
     {
         id: 3,
-        title: "Be brave, curious and experiment – learn from all successes and failures",
-        para: "Quisque aliquet quis est in faucibus. Aenean eget lorem ac risus placerat convallis eget a eros. Suspendisse dignissim ultrices tellus, id placerat mauris lacinia a."
+        title: "Cost Effective",
+        para: "We offer competitive prices and strive to provide the best value for your money. We can work with any budget and provide the best solutions."
     },
     {
         id: 4,
-        title: "Act in a way that makes all of us proud",
-        para: "Proin dignissim facilisis tortor a mattis. Morbi non maximus nunc, ut mattis tellus. In hac habitasse platea dictumst. Mauris viverra enim tellus, vel ultrices dolor aliquam non."
+        title: "On-Time Delivery",
+        para: "We understand the importance of timely delivery of projects and make sure that all our projects are delivered on time. We keep our customers updated with the progress."
     },
     {
         id: 5,
-        title: "Build an inclusive, transparent and socially responsible culture",
-        para: "Maecenas eros sapien, egestas at elit nec, eleifend sagittis orci."
+        title: "Quality Support",
+        para: "We provide 24/7 customer support and make sure that our customers get their queries resolved quickly."
     }
 ]
 
@@ -39,7 +39,7 @@ const AboutThree = () => {
                 <SectionTitle 
                     subtitle="Our Valus"
                     title="Why should you work with us?"
-                    description="Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet."
+                    description="We provide top-notch services and a friendly team environment. Our staff has a wealth of experience and knowledge and will help you grow."
                     textAlignment="heading-left heading-light-left mb--100"
                     textColor=""
                 />

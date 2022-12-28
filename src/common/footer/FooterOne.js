@@ -11,7 +11,8 @@ const FooterOne = ({parentClass}) => {
     return (
         <footer className={`footer-area ${parentClass}`}>
             <div className="container">
-                <div className="footer-top">
+                {/* SOCIAL MEDIA ICONS */}
+                {/* <div className="footer-top">
                     <div className="footer-social-link">
                         <ul className="list-unstyled">
                             <li><Link to="https://facebook.com/"><FaFacebookF /></Link></li>
@@ -24,14 +25,16 @@ const FooterOne = ({parentClass}) => {
                             <li><Link to="https://www.behance.net/"><FaBehance /></Link></li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
+
+
                 <div className="footer-main">
                     <div className="row">
                         <div className="col-xl-6 col-lg-5">
                             <div className="footer-widget border-end">
                                 <div className="footer-newsletter">
                                     <h2 className="title">Get in touch!</h2>
-                                    <p>Fusce varius, dolor tempor interdum tristique, dui urna bib endum magna, ut ullamcorper purus</p>
+                                    <p>Subscribe to our monthly news letter</p>
                                     <form>
                                         <div className="input-group">
                                             <span className="mail-icon"><FaEnvelopeOpen /> </span>
@@ -90,7 +93,7 @@ const FooterOne = ({parentClass}) => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="footer-copyright">
-                                <span className="copyright-text">© {new Date().getFullYear()}. All rights reserved by <a href="https://axilthemes.com/">Axilthemes</a>.</span>
+                                <span className="copyright-text">© {new Date().getFullYear()}. All rights reserved by <a href="https://rgweb.in/">RGweb</a>.</span>
                             </div>
                         </div>
                         <div className="col-md-6">

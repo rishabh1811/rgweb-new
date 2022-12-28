@@ -21,14 +21,15 @@ const AboutUs = () => {
                 <HeaderOne />
                 <BcrumbBannerOne 
                 title="One of the fastest growing agency"
-                paragraph ="We design and develop web and mobile applications for our clients worldwide."
+                paragraph ="We are a web development and marketing company dedicated to providing the best web development and marketing solutions to our clients."
                 styleClass="thumbnail-4"
-                mainThumb="/images/banner/banner-thumb-3.png"
+                mainThumb="/images/banner/banner-thumb-1-aboutus.png"
+                lineClamp={false}
                 />
                 <AboutFour />
                 <AboutThree />
                 <AboutFive />
-                <ProcessOne />
+                {/* <ProcessOne /> */}
                 <CtaLayoutOne />
                 <FooterOne parentClass="" />
             </main>

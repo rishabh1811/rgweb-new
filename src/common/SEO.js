@@ -6,9 +6,9 @@ const SEO = ( {title} ) => {
     return (
         <>
             <meta charSet="utf-8" />
-            <title>Abstrak | {title}</title>
+            <title>RGweb.in | {title}</title>
             <meta name="robots" content="noindex, follow" />
-            <meta name="description" content="Creative Agency, Corporate and Portfolio React JS Template" />
+            <meta name="description" content="No.1 Website Development Company in Delhi NCR. Free consultation. Website @ ₹2499" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         </>
     )

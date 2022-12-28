@@ -11,7 +11,7 @@ const AboutFour = () => {
                     <div className="row">
                     <div className="col-xl-7 col-lg-6">
                         <div className="case-study-featured-thumb text-start">
-                        <img src={process.env.PUBLIC_URL + "/images/others/case-study-4.png"} alt="travel" />
+                        <img src={process.env.PUBLIC_URL + "/images/banner/about.png"} alt="travel" />
                         </div>
                     </div>
                     <div className="col-xl-5 col-lg-6">
@@ -19,9 +19,9 @@ const AboutFour = () => {
                         <div className="section-heading heading-left">
                             <span className="subtitle">Who we are</span>
                             <h2 className="title">Building software for world changers</h2>
-                            <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
-                            <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
-                            <Link to="#" className="axil-btn btn-fill-primary btn-large">Read More</Link>
+                            <p>We strive to create custom web and marketing solutions that are tailored to the specific needs of each of our clients. We specialize in creating websites, developing digital marketing strategies, optimizing search engine optimization, and running successful campaigns.</p>
+                            <p>Our team of experienced professionals guarantee the highest quality of service and the most successful results for our clients.</p>
+                            {/* <Link to="#" className="axil-btn btn-fill-primary btn-large">Read More</Link> */}
                         </div>
                         <div className="case-study-counterup">
                             <div className="single-counterup">

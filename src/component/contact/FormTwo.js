@@ -59,7 +59,7 @@ const FormTwo = () => {
 
         setTimeout(() => {
             showresult(false);
-        }, 5000);
+        }, 10000);
 
 
     return (

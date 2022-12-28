@@ -10,7 +10,7 @@ const AboutFive = () => {
                 <div className="col-lg-7">
                     <div className="about-team">
                     <div className="thumbnail">
-                        <img src={process.env.PUBLIC_URL + "/images/about/about-2.png"} alt="thumbnail" />
+                        <img src={process.env.PUBLIC_URL + "/images/about/about-2-team.png"} alt="thumbnail" />
                     </div>
                     </div>
                 </div>
@@ -19,8 +19,8 @@ const AboutFive = () => {
                     <div className="section-heading heading-left">
                         <span className="subtitle">Our Team</span>
                         <h2>Alone we can do so little; together we can do so much.</h2>  
-                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero.</p>
-                        <Link to="#" className="axil-btn btn-large btn-fill-primary">Our Team</Link>
+                        <p>Our team is made up of experienced professionals in both the software engineering and business worlds. <br/><br/> We are dedicated to creating products and services that provide value to our customers and make their lives easier.</p>
+                        {/* <Link to="#" className="axil-btn btn-large btn-fill-primary">Our Team</Link> */}
                     </div>
                     </div>
                 </div>

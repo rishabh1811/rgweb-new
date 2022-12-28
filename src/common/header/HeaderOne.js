@@ -40,7 +40,7 @@ const HeaderOne = () => {
                     <div className="container">
                         <div className="header-navbar">
                             <div className="header-logo">
-                                <Logo limage="/images/logo.svg"
+                                <Logo limage="/images/mylogo.svg"
                                 dimage="/images/logo-3.svg"
                                 simage="/images/logo-2.svg"
                                 />
@@ -48,15 +48,16 @@ const HeaderOne = () => {
                             <div className="header-main-nav">
                                 <Nav />
                             </div>
+
                             <div className="header-action">
                                 <ul className="list-unstyled">
-                                    <li className="sidemenu-btn d-lg-block d-none">
+                                    {/* <li className="sidemenu-btn d-lg-block d-none">
                                         <button className="btn-wrap" onClick={OffcanvasHandleShow}>
                                             <span></span>
                                             <span></span>
                                             <span></span>
                                         </button>
-                                    </li>
+                                    </li> */}
                                     <li className="mobile-menu-btn sidemenu-btn d-lg-none d-block">
                                         <button className="btn-wrap" onClick={MobileMenuHandler}>
                                             <span></span>
@@ -69,6 +70,8 @@ const HeaderOne = () => {
                                     </li>
                                 </ul>
                             </div>
+
+
                         </div>
                     </div>
                 </div>

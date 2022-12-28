@@ -18,11 +18,11 @@ const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
                 <div className="row ">
                     <div className="col-lg-5 col-xl-6">
                         <ul className="main-navigation list-unstyled">
-                            <li><Link to={process.env.PUBLIC_URL + "/digital-agency"}>Digital Agency</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/creative-agency"}>Creative Agency</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/personal-portfolio"}>Personal Portfolio</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/home-startup"}>Home Startup</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/corporate-agency"}>Corporate Agency</Link></li>
+                            <li><Link to={"/digital-agency"}>Digital Agency</Link></li>
+                            <li><Link to={"/creative-agency"}>Creative Agency</Link></li>
+                            <li><Link to={"/personal-portfolio"}>Personal Portfolio</Link></li>
+                            <li><Link to={"/home-startup"}>Home Startup</Link></li>
+                            <li><Link to={"/corporate-agency"}>Corporate Agency</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-7 col-xl-6">

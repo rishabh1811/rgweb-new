@@ -24,7 +24,7 @@ const SplashFooter = () => {
                         <div className="footer-bottom-link">
                             <ul className="list-unstyled">
                                 <li><a href="https://themeforest.net/user/axilthemes/portfolio">More Themes</a></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/privacy-policy"}>Privacy Policy</Link></li>
+                                <li><Link to={"/privacy-policy"}>Privacy Policy</Link></li>
                             </ul>
                         </div>
                         </div>

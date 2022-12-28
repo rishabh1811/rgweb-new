@@ -57,7 +57,7 @@ const App = () => {
     <Router>
 		<ScrollToTop>
 			<Routes>
-				{/* <Route path={process.env.PUBLIC_URL + "/"} element={<Splash />}/> */}
+				{/* <Route path={"/"} element={<Splash />}/> */}
 				<Route path={"/"} element={<DigitalAgency />}/>
 
 				<Route path={"/digital-agency"} element={<DigitalAgency />}/>

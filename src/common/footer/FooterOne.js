@@ -54,7 +54,7 @@ const FooterOne = ({parentClass}) => {
                                             <ul className="list-unstyled">
                                                 {getServiceData.slice(0, 6).map((data, index) => (
                                                     <li key={index}>
-                                                        <Link to={process.env.PUBLIC_URL + `/service-details/${slugify(data.title)}`}>{data.title}</Link>
+                                                        <Link to={`/service-details/${slugify(data.title)}`}>{data.title}</Link>
                                                     </li>
                                                 ))}
                                             </ul>
@@ -66,9 +66,9 @@ const FooterOne = ({parentClass}) => {
                                         <h6 className="widget-title">Resourses</h6>
                                         <div className="footer-menu-link">
                                             <ul className="list-unstyled">
-                                                <li><Link to={process.env.PUBLIC_URL + "/blog-grid"}>Blog</Link></li>
-                                                <li> <Link to={process.env.PUBLIC_URL + "/case-study"}>Case Studies</Link></li>
-                                                <li><Link to={process.env.PUBLIC_URL + "/project-grid-one"}>Portfolio</Link></li>
+                                                <li><Link to={"/blog-grid"}>Blog</Link></li>
+                                                <li> <Link to={"/case-study"}>Case Studies</Link></li>
+                                                <li><Link to={"/project-grid-one"}>Portfolio</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -78,9 +78,9 @@ const FooterOne = ({parentClass}) => {
                                         <h6 className="widget-title">Support</h6>
                                         <div className="footer-menu-link">
                                             <ul className="list-unstyled">
-                                                <li><Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></li>
-                                                <li> <Link to={process.env.PUBLIC_URL + "/privacy-policy"}>Privacy Policy</Link></li>
-                                                <li><Link to={process.env.PUBLIC_URL + "/terms-use"}>Terms of Use</Link></li>
+                                                <li><Link to={"/contact"}>Contact</Link></li>
+                                                <li> <Link to={"/privacy-policy"}>Privacy Policy</Link></li>
+                                                <li><Link to={"/terms-use"}>Terms of Use</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -99,8 +99,8 @@ const FooterOne = ({parentClass}) => {
                         <div className="col-md-6">
                             <div className="footer-bottom-link">
                                 <ul className="list-unstyled">
-                                    <li><Link to={process.env.PUBLIC_URL + "/privacy-policy"}>Privacy Policy</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/terms-use"}>Terms of Use</Link></li>
+                                    <li><Link to={"/privacy-policy"}>Privacy Policy</Link></li>
+                                    <li><Link to={"/terms-use"}>Terms of Use</Link></li>
                                 </ul>
                             </div>
                         </div>

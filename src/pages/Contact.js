@@ -5,8 +5,8 @@ import FooterOne from '../common/footer/FooterOne';
 import HeaderOne from '../common/header/HeaderOne';
 import BreadCrumbOne from '../elements/breadcrumb/BreadCrumbOne';
 import FormTwo from '../component/contact/FormTwo';
-import SectionTitle from '../elements/section-title/SectionTitle';
-import ContactLocation from '../component/contact/ContactLocation';
+// import SectionTitle from '../elements/section-title/SectionTitle';
+// import ContactLocation from '../component/contact/ContactLocation';
 
 
 
@@ -53,7 +53,7 @@ const Contact = () => {
             </div>
 
             {/* OUR LOCATIONS */}
-            
+
             {/* <div className="section section-padding bg-color-dark overflow-hidden">
                 <div className="container">
                     <SectionTitle 

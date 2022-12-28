@@ -11,7 +11,7 @@ import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import PricingOne from '../component/pricing/PricingOne';
 import ProjectOne from '../component/project/ProjectOne';
 import ServicePropOne from '../component/service/ServicePropOne';
-import TestimonialOne from '../component/testimonial/TestimonialOne';
+// import TestimonialOne from '../component/testimonial/TestimonialOne';
 import SectionTitle from '../elements/section-title/SectionTitle';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 

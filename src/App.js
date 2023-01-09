@@ -60,50 +60,52 @@ const App = () => {
 				{/* <Route path={"/"} element={<Splash />}/> */}
 				<Route path={"/"} element={<DigitalAgency />}/>
 
-				<Route path={"/digital-agency"} element={<DigitalAgency />}/>
-				<Route path={"/creative-agency"} element={<CreativeAgency />}/>
-				<Route path={"/personal-portfolio"} element={<PersonalPortfolio />}/>
-				<Route path={"/home-startup"} element={<HomeStartup />}/>
-				<Route path={"/corporate-agency"} element={<CorporateAgency />}/>
+				{/* <Route path={"/digital-agency"} element={<DigitalAgency />}/> */}
+				{/* <Route path={"/creative-agency"} element={<CreativeAgency />}/> */}
+				{/* <Route path={"/personal-portfolio"} element={<PersonalPortfolio />}/> */}
+				{/* <Route path={"/home-startup"} element={<HomeStartup />}/> */}
+				{/* <Route path={"/corporate-agency"} element={<CorporateAgency />}/> */}
 
 				{/* Blogs */}
-				<Route path={"/blog-grid/"} element={<BlogGridView />}/>
-				<Route path={"/category/:slug"} element={<BlogCategory />}/>
-				<Route path={"/archive/:slug"} element={<BlogArchive />}/>
-				<Route path={"/blog-details/:id"} element={<BlogDetails />}/>
+				{/* <Route path={"/blog-grid/"} element={<BlogGridView />}/> */}
+				{/* <Route path={"/category/:slug"} element={<BlogCategory />}/> */}
+				{/* <Route path={"/archive/:slug"} element={<BlogArchive />}/> */}
+				{/* <Route path={"/blog-details/:id"} element={<BlogDetails />}/> */}
 
 				{/* Service */}
 				<Route path={"/service/"} element={<ServiceOne />}/>
-				<Route path={"/service-one/"} element={<ServiceOne />}/>
-				<Route path={"/service-two/"} element={<ServiceTwo />}/>
-				<Route path={"/service-details/:slug"} element={<ServiceDetails />}/>
+				{/* <Route path={"/service-one/"} element={<ServiceOne />}/> */}
+				{/* <Route path={"/service-two/"} element={<ServiceTwo />}/> */}
+				{/* <Route path={"/service-details/:slug"} element={<ServiceDetails />}/> */}
 
 				{/* Project  */}
 				<Route path={"/portfolio"} element={<ProjectGridTwo />}/>
 
-				<Route path={"/project-grid-one"} element={<ProjectGridOne />}/>
-				<Route path={"/project-grid-two"} element={<ProjectGridTwo />}/>
-				<Route path={"/project-grid-three"} element={<ProjectGridThree />}/>
-				<Route path={"/project-width-one"} element={<ProjectGridFour />}/>
-				<Route path={"/project-width-two"} element={<ProjectGridFive />}/>
+				{/* <Route path={"/project-grid-one"} element={<ProjectGridOne />}/> */}
+				{/* <Route path={"/project-grid-two"} element={<ProjectGridTwo />}/> */}
+				{/* <Route path={"/project-grid-three"} element={<ProjectGridThree />}/> */}
+				{/* <Route path={"/project-width-one"} element={<ProjectGridFour />}/> */}
+				{/* <Route path={"/project-width-two"} element={<ProjectGridFive />}/> */}
 				<Route path={"/project-details/:slug"} element={<ProjectDetails />}/>
 
 				{/* Pages  */}
 				<Route path={"/about-us"} element={<AboutUs />}/>
-				<Route path={"/our-office"} element={<OurOffice />}/>
-				<Route path={"/our-clients"} element={<OurClients />}/>
-				<Route path={"/team"} element={<Team />}/>
-				<Route path={"/team-details/:slug"} element={<TeamDetails />}/>
-				<Route path={"/case-study"} element={<CaseStudy />}/>
-				<Route path={"/case-details/:slug"} element={<CaseDetails />}/>
-				<Route path={"/testimonials"} element={<Testimonials />}/>
-				<Route path={"/pricing"} element={<PricingTable />}/>
-				<Route path={"/typography"} element={<Typography />}/>
 				<Route path={"/contact"} element={<Contact />}/>
 				<Route path={"/404"} element={<ErrorPage />}/>
-				<Route path={"/coming-soon"} element={<ComingSoon />}/>
-				<Route path={"/privacy-policy"} element={<PrivacyPolicy />}/>
-				<Route path={"/terms-use"} element={<TermsOfUse />}/>
+				<Route path={"/pricing"} element={<PricingTable />}/>
+
+
+				{/* <Route path={"/our-office"} element={<OurOffice />}/> */}
+				{/* <Route path={"/our-clients"} element={<OurClients />}/> */}
+				{/* <Route path={"/team"} element={<Team />}/> */}
+				{/* <Route path={"/team-details/:slug"} element={<TeamDetails />}/> */}
+				{/* <Route path={"/case-study"} element={<CaseStudy />}/> */}
+				{/* <Route path={"/case-details/:slug"} element={<CaseDetails />}/> */}
+				{/* <Route path={"/testimonials"} element={<Testimonials />}/> */}
+				{/* <Route path={"/typography"} element={<Typography />}/> */}
+				{/* <Route path={"/coming-soon"} element={<ComingSoon />}/> */}
+				{/* <Route path={"/privacy-policy"} element={<PrivacyPolicy />}/> */}
+				{/* <Route path={"/terms-use"} element={<TermsOfUse />}/> */}
 
 			</Routes>
 		</ScrollToTop>

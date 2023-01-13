@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 import WidgetPost from './widget/WidgetPost';
 import WidgetCategory from './widget/WidgetCategory';
 import { FaSearch, FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaPinterest, FaYoutube} from "react-icons/fa";
@@ -36,8 +36,8 @@ const BlogSidebar = () => {
                 <WidgetPost />
             </div>
             <div className="widget widget-banner-ad">
-                <Link to="#">
-                    <img src={process.env.PUBLIC_URL + "/images/banner/widget-banner.png"} alt="banner" />
+                <Link href="#">
+                    <img src={"/images/banner/widget-banner.png"} alt="banner" />
                 </Link>
             </div>
         </div>

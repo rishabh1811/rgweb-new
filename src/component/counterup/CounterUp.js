@@ -45,11 +45,11 @@ const CounterUp = ({colSize, layoutStyle, evenTopMargin}) => {
                         { 
                             layoutStyle === "counterup-style-2" ? 
                             <div className="icon">
-                                <img className="dark-icon" src={process.env.PUBLIC_URL + data.dark_icon} alt="Icon" />
-                                <img className="light-icon" src={process.env.PUBLIC_URL + data.light_icon} alt="Icon" />
+                                <img className="dark-icon" src={data.dark_icon} alt="Icon" />
+                                <img className="light-icon" src={data.light_icon} alt="Icon" />
                             </div> : 
                             <div className="icon">
-                                <img src={process.env.PUBLIC_URL + data.light_icon} alt="Icon" />
+                                <img src={data.light_icon} alt="Icon" />
                             </div> 
                         }
 

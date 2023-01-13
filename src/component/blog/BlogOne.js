@@ -19,10 +19,10 @@ const BlogOne = () => {
                 </div>
             </div>
             <ul className="shape-group-1 list-unstyled">
-                <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"} alt="bubble" /></li>
-                <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/line-1.png"} alt="bubble" /></li>
-                <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/line-2.png"} alt="bubble" /></li>
-                <li className="shape shape-4"><img src={process.env.PUBLIC_URL + "/images/others/bubble-2.png"} alt="bubble" /></li>
+                <li className="shape shape-1"><img src={"/images/others/bubble-1.png"} alt="bubble" /></li>
+                <li className="shape shape-2"><img src={"/images/others/line-1.png"} alt="bubble" /></li>
+                <li className="shape shape-3"><img src={"/images/others/line-2.png"} alt="bubble" /></li>
+                <li className="shape shape-4"><img src={"/images/others/bubble-2.png"} alt="bubble" /></li>
             </ul>
         </div>
     )

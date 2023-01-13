@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 import CountUp from 'react-countup';
 import TrackVisibility from 'react-on-screen';
 
@@ -11,7 +11,7 @@ const AboutFour = () => {
                     <div className="row">
                     <div className="col-xl-7 col-lg-6">
                         <div className="case-study-featured-thumb text-start">
-                        <img src={process.env.PUBLIC_URL + "/images/banner/about.png"} alt="travel" />
+                        <img src={"/images/banner/about.png"} alt="travel" />
                         </div>
                     </div>
                     <div className="col-xl-5 col-lg-6">
@@ -21,7 +21,7 @@ const AboutFour = () => {
                             <h2 className="title">Building software for world changers</h2>
                             <p>We strive to create custom web and marketing solutions that are tailored to the specific needs of each of our clients. We specialize in creating websites, developing digital marketing strategies, optimizing search engine optimization, and running successful campaigns.</p>
                             <p>Our team of experienced professionals guarantee the highest quality of service and the most successful results for our clients.</p>
-                            {/* <Link to="#" className="axil-btn btn-fill-primary btn-large">Read More</Link> */}
+                            {/* <Link href="#" className="axil-btn btn-fill-primary btn-large">Read More</Link> */}
                         </div>
                         <div className="case-study-counterup">
                             <div className="single-counterup">

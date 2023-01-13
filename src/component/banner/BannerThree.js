@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Tilty from 'react-tilty';
 
@@ -20,7 +20,7 @@ const BannerThree = () => {
                         <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={200}>
                         <div className="btn-group">
                             <a href="https://dribbble.com/axilweb/" className="axil-btn btn-fill-primary btn-large">Latest Work On Dribbble</a>
-                            <Link to={process.env.PUBLIC_URL + "/about-us"} className="about-btn">About Me</Link>
+                            <Link href={"/about-us"} className="about-btn">About Me</Link>
                         </div>
                         </AnimationOnScroll>
                     </div>
@@ -30,7 +30,7 @@ const BannerThree = () => {
                     <div className="large-thumb">
                         <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={200}>
                             <Tilty perspective={2000} reset={false}>
-                                <img src={process.env.PUBLIC_URL + "/images/banner/banner-thumb-6.png"} alt="Shape" />
+                                <img src={"/images/banner/banner-thumb-6.png"} alt="Shape" />
                             </Tilty>
                         </AnimationOnScroll>
                     </div>
@@ -40,22 +40,22 @@ const BannerThree = () => {
             </div>
             <ul className="list-unstyled shape-group-20">
                 <li className="shape shape-1">
-                <img src={process.env.PUBLIC_URL + "/images/others/bubble-32.png"} alt="Bubble" />
+                <img src={"/images/others/bubble-32.png"} alt="Bubble" />
                 </li>
                 <li className="shape shape-2">
-                <img src={process.env.PUBLIC_URL + "/images/others/bubble-33.png"} alt="Bubble" />
+                <img src={"/images/others/bubble-33.png"} alt="Bubble" />
                 </li>
                 <li className="shape shape-4">
-                <img src={process.env.PUBLIC_URL + "/images/others/bubble-14.png"} alt="Bubble" />
+                <img src={"/images/others/bubble-14.png"} alt="Bubble" />
                 </li>
                 <li className="shape shape-5">
-                <img src={process.env.PUBLIC_URL + "/images/others/bubble-4.png"} alt="Bubble" />
+                <img src={"/images/others/bubble-4.png"} alt="Bubble" />
                 </li>
                 <li className="shape shape-6">
-                <img src={process.env.PUBLIC_URL + "/images/others/bubble-30.png"} alt="Bubble" />
+                <img src={"/images/others/bubble-30.png"} alt="Bubble" />
                 </li>
                 <li className="shape shape-7">
-                <img src={process.env.PUBLIC_URL + "/images/others/bubble-31.png"} alt="Bubble" />
+                <img src={"/images/others/bubble-31.png"} alt="Bubble" />
                 </li>
                 <li className="shape shape-8 marque-images" />
             </ul>

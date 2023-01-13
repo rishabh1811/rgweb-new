@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 import { FaFacebookF, FaDribbble } from "react-icons/fa";
 
 
@@ -24,7 +24,7 @@ const SplashFooter = () => {
                         <div className="footer-bottom-link">
                             <ul className="list-unstyled">
                                 <li><a href="https://themeforest.net/user/axilthemes/portfolio">More Themes</a></li>
-                                <li><Link to={"/privacy-policy"}>Privacy Policy</Link></li>
+                                <li><Link href={"/privacy-policy"}>Privacy Policy</Link></li>
                             </ul>
                         </div>
                         </div>

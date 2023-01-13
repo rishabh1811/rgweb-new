@@ -11,7 +11,7 @@ const TestimonialItem = ({colSize, itemShow, testimonialData, layoutStyle}) => {
                     <p>{data.description}</p>
                     <div className="author-info">
                         <div className="thumb">
-                            <img src={process.env.PUBLIC_URL + data.authorimg} alt={data.authorname} />
+                            <img src={data.authorimg} alt={data.authorname} />
                         </div>
                         <div className="content">
                             <span className="name">{data.authorname}</span>

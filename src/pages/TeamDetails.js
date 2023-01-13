@@ -56,7 +56,7 @@ const TeamDetails = () => {
                         <div className="col-lg-6">
                             <div className="team-details-thumb">
                             <Tilty perspective={3000} reset={false}>
-                                <img className="paralax-image" src={process.env.PUBLIC_URL + detailsTeam.thumb} alt="Thumbnail" />
+                                <img className="paralax-image" src={detailsTeam.thumb} alt="Thumbnail" />
                             </Tilty>
                             </div>
                         </div>

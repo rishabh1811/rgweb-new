@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 import {flatDeep, slugify, containsObject} from '../../../utils';
 import BlogData from "../../../data/blog/BlogData.json";
 
@@ -36,7 +36,7 @@ const WidgetCategory = () => {
         <ul className="category-list list-unstyled">
             {categories.map((data) =>(
                 <li key={data.slug}>
-                    <Link to={process.env.PUBLIC_URL + `/category/${data.slug}`}>{data.title}</Link>
+                    <Link href={`/category/${data.slug}`}>{data.title}</Link>
                 </li>
             ))}
         </ul>

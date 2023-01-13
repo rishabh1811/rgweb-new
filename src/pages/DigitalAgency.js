@@ -20,7 +20,7 @@ const DigitalAgency = () => {
 
     return (
         <>
-        <SEO title="Digital Agency"/>
+        {/* <SEO title="Digital Agency"/> */}
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />
@@ -39,9 +39,9 @@ const DigitalAgency = () => {
                     </div>
                 </div>
                 <ul className="list-unstyled shape-group-10">
-                    <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/line-9.png"} alt="Circle" /></li>
-                    <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-42.png"} alt="Circle" /></li>
-                    <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-43.png"} alt="Circle" /></li>
+                    <li className="shape shape-1"><img src={"/images/others/line-9.png"} alt="Circle" /></li>
+                    <li className="shape shape-2"><img src={"/images/others/bubble-42.png"} alt="Circle" /></li>
+                    <li className="shape shape-3"><img src={"/images/others/bubble-43.png"} alt="Circle" /></li>
                 </ul>
             </div>
             <AboutOne />
@@ -60,8 +60,8 @@ const DigitalAgency = () => {
                     <PricingOne />
                 </div>
                 <ul className="list-unstyled shape-group-3">
-                    <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/line-1.png"} alt="shape" /></li>
-                    <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-4.png"} alt="shape" /></li>
+                    <li className="shape shape-1"><img src={"/images/others/line-1.png"} alt="shape" /></li>
+                    <li className="shape shape-2"><img src={"/images/others/bubble-4.png"} alt="shape" /></li>
                 </ul>
             </div>
             {/* <BrandOne /> */}

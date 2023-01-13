@@ -2,7 +2,7 @@ import React from 'react';
 import SectionTitle from '../../elements/section-title/SectionTitle';
 import ProjectPropTwo from './itemProp/ProjectPropTwo';
 import ProjectData from "../../data/project/ProjectData.json";
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 
 const portfolioData = ProjectData;
 
@@ -26,7 +26,7 @@ const ProjectTwo = () => {
 
             </div>
             <div className="more-project-btn">
-                <Link to={process.env.PUBLIC_URL + "/project-grid-two"} className="axil-btn btn-fill-white">Discover More Projects</Link>
+                <Link href={"/project-grid-two"} className="axil-btn btn-fill-white">Discover More Projects</Link>
             </div>
         </div>
     </div>

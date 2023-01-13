@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 import SplashFooter from '../common/footer/SplashFooter';
 import SplashHeader from '../common/header/SplashHeader';
 import SEO from '../common/SEO';
@@ -40,7 +40,7 @@ const Splash = () => {
                                 DemoData.map((data) => (
                                 <div className="col-md-6" key={data.id}>
                                     <div className="single-demo">
-                                        <Link to={`${process.env.PUBLIC_URL}/${slugify(data.title)}`}>
+                                        <Link href={`${process.env.PUBLIC_URL}/${slugify(data.title)}`}>
                                             <span className="thumb">
                                                 <img src={`${process.env.PUBLIC_URL}${data.height_img}`} alt={data.title} />
                                             </span>
@@ -55,8 +55,8 @@ const Splash = () => {
                         </div>
                     </div>
                     <ul className="shape-group list-unstyled">
-                        <li className="shape-1"><img src={process.env.PUBLIC_URL + "/images/others/bubble-35.png"} alt="Shape" /></li>
-                        <li className="shape-2"><img src={process.env.PUBLIC_URL + "/images/others/line-4.png"} alt="Shape" /></li>
+                        <li className="shape-1"><img src={"/images/others/bubble-35.png"} alt="Shape" /></li>
+                        <li className="shape-2"><img src={"/images/others/line-4.png"} alt="Shape" /></li>
                     </ul>
                 </div>
 
@@ -78,7 +78,7 @@ const Splash = () => {
                                     <div className="col-xl-4 col-md-6" key={data.id}>
                                         <div className="services-grid">
                                             <div className="thumbnail">
-                                                <img src={process.env.PUBLIC_URL + data.icon} alt="icon" />
+                                                <img src={data.icon} alt="icon" />
                                             </div>
                                             <div className="content">
                                                 <h5 className="title" dangerouslySetInnerHTML={{__html: data.title}}></h5>
@@ -91,9 +91,9 @@ const Splash = () => {
                         </div>
                     </div>
                     <ul className="list-unstyled shape-group-10">
-                        <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-1.png"} alt="Circle" /></li>
-                        <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/line-3.png"} alt="Circle" /></li>
-                        <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-5.png"} alt="Circle" /></li>
+                        <li className="shape shape-1"><img src={"/images/others/circle-1.png"} alt="Circle" /></li>
+                        <li className="shape shape-2"><img src={"/images/others/line-3.png"} alt="Circle" /></li>
+                        <li className="shape shape-3"><img src={"/images/others/bubble-5.png"} alt="Circle" /></li>
                     </ul>
                 </div>
 
@@ -116,7 +116,7 @@ const Splash = () => {
                                         <div className="why-buy-box">
                                             <div className="heading">
                                                 <div className="icon">
-                                                    <img src={process.env.PUBLIC_URL + data.icon} alt="Thumb" />
+                                                    <img src={data.icon} alt="Thumb" />
                                                 </div>
                                                 <h5 className="title" dangerouslySetInnerHTML={{__html: data.title}}></h5>
                                             </div>
@@ -136,7 +136,7 @@ const Splash = () => {
                                                 <div className="heading">
                                                 <h4 className="title">Online<br /> Documentation</h4>
                                                 <div className="icon">
-                                                    <img src={process.env.PUBLIC_URL + "/images/icon/icon-25.png"} alt="Thumb" />
+                                                    <img src={"/images/icon/icon-25.png"} alt="Thumb" />
                                                 </div>
                                                 </div>
                                                 <p>Well organized and up to date</p>
@@ -146,8 +146,8 @@ const Splash = () => {
                                             </div>
                                         </div>
                                         <ul className="shape-group list-unstyled">
-                                            <li className="shape-1"><img src={process.env.PUBLIC_URL + "/images/others/bubble-34.png"} alt="Shape" /></li>
-                                            <li className="shape-2"><img src={process.env.PUBLIC_URL + "/images/others/line-8.png"} alt="Shape" /></li>
+                                            <li className="shape-1"><img src={"/images/others/bubble-34.png"} alt="Shape" /></li>
+                                            <li className="shape-2"><img src={"/images/others/line-8.png"} alt="Shape" /></li>
                                         </ul>
                                     </a>
                                 </div>
@@ -160,7 +160,7 @@ const Splash = () => {
                                             <div className="heading">
                                             <h4 className="title">Submit A <br /> Support Ticket</h4>
                                             <div className="icon">
-                                                <img src={process.env.PUBLIC_URL + "/images/icon/icon-26.png"} alt="Thumb" />
+                                                <img src={"/images/icon/icon-26.png"} alt="Thumb" />
                                             </div>
                                             </div>
                                             <p>We response within 1 Business day. weekends excluded.</p>
@@ -175,7 +175,7 @@ const Splash = () => {
                         </div>
                     </div>
                     <div className="line-shape">
-                        <img src={process.env.PUBLIC_URL + "/images/others/line-6.png"} alt="Line" />
+                        <img src={"/images/others/line-6.png"} alt="Line" />
                     </div>
                 </div>
                 <SplashCta />

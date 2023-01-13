@@ -11,7 +11,7 @@ const Comment = () => {
             <div className="comment-list">
                 <div className="comment">
                     <div className="thumbnail">
-                        <img src={process.env.PUBLIC_URL + "/images/blog/author-1.png"} alt="Blog Comment" />
+                        <img src={"/images/blog/author-1.png"} alt="Blog Comment" />
                     </div>
                     <div className="content">
                         <div className="heading">
@@ -28,7 +28,7 @@ const Comment = () => {
                 </div>
                 <div className="comment comment-reply">
                     <div className="thumbnail">
-                        <img src={process.env.PUBLIC_URL + "/images/blog/author-2.png"} alt="Blog Comment" />
+                        <img src={"/images/blog/author-2.png"} alt="Blog Comment" />
                     </div>
                     <div className="content">
                         <div className="heading">
@@ -45,7 +45,7 @@ const Comment = () => {
                 </div>
                 <div className="comment">
                     <div className="thumbnail">
-                        <img src={process.env.PUBLIC_URL + "/images/blog/author-3.png"} alt="Blog Comment" />
+                        <img src={"/images/blog/author-3.png"} alt="Blog Comment" />
                     </div>
                     <div className="content">
                         <div className="heading">

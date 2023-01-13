@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import Link from 'next/link'
+import Link from 'next/link'
 import Offcanvas from 'react-bootstrap/Offcanvas'
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaBehance, FaPhone, FaFax } from "react-icons/fa";
 
@@ -18,11 +19,11 @@ const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
                 <div className="row ">
                     <div className="col-lg-5 col-xl-6">
                         <ul className="main-navigation list-unstyled">
-                            <li><Link to={"/digital-agency"}>Digital Agency</Link></li>
-                            <li><Link to={"/creative-agency"}>Creative Agency</Link></li>
-                            <li><Link to={"/personal-portfolio"}>Personal Portfolio</Link></li>
-                            <li><Link to={"/home-startup"}>Home Startup</Link></li>
-                            <li><Link to={"/corporate-agency"}>Corporate Agency</Link></li>
+                            <li><Link href={"/digital-agency"}>Digital Agency</Link></li>
+                            <li><Link href={"/creative-agency"}>Creative Agency</Link></li>
+                            <li><Link href={"/personal-portfolio"}>Personal Portfolio</Link></li>
+                            <li><Link href={"/home-startup"}>Home Startup</Link></li>
+                            <li><Link href={"/corporate-agency"}>Corporate Agency</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-7 col-xl-6">

@@ -43,7 +43,7 @@ const TestimonialTwo = () => {
             </div>
             <ul className="shape-group-4 list-unstyled">
                 <li className="shape-1">
-                    <img src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"} alt="Bubble" />
+                    <img src={"/images/others/bubble-1.png"} alt="Bubble" />
                 </li>
             </ul>
         </div>

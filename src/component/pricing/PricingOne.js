@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
+// import Link from 'next/link'
+import Link from 'next/link'
+
 import PricingData from "../../data/pricing/PricingData.json";
 import { FaCheck} from "react-icons/fa";
 
@@ -58,7 +60,7 @@ const PricingOne = () => {
                                     </div>
                                 </div>
                                 <div className="pricing-btn">
-                                    <Link to="/contact" className="axil-btn btn-large btn-borderd">Get Started Today</Link>
+                                    <Link href="/contact" className="axil-btn btn-large btn-borderd">Get Started Today</Link>
                                 </div>
                             </div>
                             <div className="pricing-body">

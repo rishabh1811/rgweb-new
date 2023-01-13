@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 
 
 
@@ -10,7 +10,7 @@ const BreadCrumbOne = ({title, page}) => {
                 <div className="breadcrumb">
                     <ul className="list-unstyled">
                         <li>
-                            <Link to={"/"}>Home</Link>
+                            <Link href={"/"}>Home</Link>
                         </li>
                         <li className="active" dangerouslySetInnerHTML={{__html: page}}></li>
                     </ul>
@@ -18,9 +18,9 @@ const BreadCrumbOne = ({title, page}) => {
                 </div>
             </div>
             <ul className="shape-group-8 list-unstyled">
-                <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/bubble-9.png"} alt="Bubble" /></li>
-                <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-11.png"} alt="Bubble" /></li>
-                <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/line-4.png"} alt="Line" /></li>
+                <li className="shape shape-1"><img src={"/images/others/bubble-9.png"} alt="Bubble" /></li>
+                <li className="shape shape-2"><img src={"/images/others/bubble-11.png"} alt="Bubble" /></li>
+                <li className="shape shape-3"><img src={"/images/others/line-4.png"} alt="Line" /></li>
             </ul>
         </div>
     )

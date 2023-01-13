@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import Link from 'next/link'
+import Link from 'next/link'
+
 import { FaAngleDown } from "react-icons/fa";
 
 
@@ -8,75 +10,75 @@ const Nav = () => {
         <nav className="mainmenu-nav">
             <ul className="mainmenu">
                 {/* <li className="menu-item-has-children">
-                    <Link to="#">Digital Agency <FaAngleDown /> </Link>
+                    <Link href="#">Digital Agency <FaAngleDown /> </Link>
                     <ul className="axil-submenu">
-                        <li><Link to={"/digital-agency"}>Digital Agency</Link></li>
-                        <li><Link to={"/creative-agency"}>Creative Agency</Link></li>
-                        <li><Link to={"/personal-portfolio"}>Personal Portfolio</Link></li>
-                        <li><Link to={"/home-startup"}>Home Startup</Link></li>
-                        <li><Link to={"/corporate-agency"}>Corporate Agency</Link></li>
+                        <li><Link href={"/digital-agency"}>Digital Agency</Link></li>
+                        <li><Link href={"/creative-agency"}>Creative Agency</Link></li>
+                        <li><Link href={"/personal-portfolio"}>Personal Portfolio</Link></li>
+                        <li><Link href={"/home-startup"}>Home Startup</Link></li>
+                        <li><Link href={"/corporate-agency"}>Corporate Agency</Link></li>
                         <li><a href="https://new.axilthemes.com/demo/react/abstrak-rtl/">RTL Demo</a></li>
                     </ul>
                 </li> */}
                 {/* <li className="menu-item-has-children">
-                    <Link to="/service">Services </Link>
+                    <Link href="/service">Services </Link>
                     <ul className="axil-submenu">
-                        <li><Link to={"/service-one"}>Service</Link></li>
-                        <li><Link to={"/service-two"}>Service Two</Link></li>
-                        <li><Link to={"/service-details/design"}>Service Details</Link></li>
+                        <li><Link href={"/service-one"}>Service</Link></li>
+                        <li><Link href={"/service-two"}>Service Two</Link></li>
+                        <li><Link href={"/service-details/design"}>Service Details</Link></li>
                     </ul>
                 </li> */}
 
 
                 {/* <li className="menu-item-has-children">
-                    <Link to="/portfolio">Portfolio </Link>
+                    <Link href="/portfolio">Portfolio </Link>
                     <ul className="axil-submenu">
-                        <li><Link to={"/project-grid-one"}>Two Column</Link></li>
-                        <li><Link to={"/project-grid-two"}>Three Column</Link></li>
-                        <li><Link to={"/project-grid-three"}>Four Column</Link></li>
-                        <li><Link to={"/project-width-one"}>Three Column Width</Link></li>
-                        <li><Link to={"/project-width-two"}>Four Column Width</Link></li>
-                        <li><Link to={"/project-details/plan-management"}>Portfolio Details</Link></li>
+                        <li><Link href={"/project-grid-one"}>Two Column</Link></li>
+                        <li><Link href={"/project-grid-two"}>Three Column</Link></li>
+                        <li><Link href={"/project-grid-three"}>Four Column</Link></li>
+                        <li><Link href={"/project-width-one"}>Three Column Width</Link></li>
+                        <li><Link href={"/project-width-two"}>Four Column Width</Link></li>
+                        <li><Link href={"/project-details/plan-management"}>Portfolio Details</Link></li>
                     </ul>
                 </li> */}
 
-                <li> <Link to="/service">Services </Link></li>
-                <li> <Link to="/portfolio">Portfolio </Link></li>
-                <li> <Link to={"/pricing"}>Pricing</Link></li>
-                <li> <Link to={"/about-us"}>About Us</Link></li>
+                <li> <Link href="/service">Services </Link></li>
+                <li> <Link href="/portfolio">Portfolio </Link></li>
+                <li> <Link href={"/pricing"}>Pricing</Link></li>
+                <li> <Link href={"/about-us"}>About Us</Link></li>
 
                 {/* <li className="menu-item-has-children">
-                    <Link to="#">Pages <FaAngleDown /></Link>
+                    <Link href="#">Pages <FaAngleDown /></Link>
                     <ul className="axil-submenu">
-                        <li><Link to={"/about-us"}>About Us</Link></li>
-                        <li><Link to={"/our-office"}>Our Office</Link></li>
-                        <li><Link to={"/case-study"}>Case Study</Link></li>
-                        <li><Link to={"/case-details/whitehorse"}>Case Study Details</Link></li>
-                        <li><Link to={"/team"}>Team</Link></li>
-                        <li><Link to={"/team-details/jane-cooper"}>Team Details</Link></li>
-                        <li><Link to={"/our-clients"}>Our Clients</Link></li>
-                        <li><Link to={"/testimonials"}>Testimonial</Link></li>
-                        <li><Link to={"/pricing-table"}>Pricing Table</Link></li>
-                        <li><Link to={"/typography"}>Typography</Link></li>
-                        <li><Link to={"/404"}>404 Page</Link></li>
-                        <li><Link to={"/coming-soon"}>Coming Soon</Link></li>
+                        <li><Link href={"/about-us"}>About Us</Link></li>
+                        <li><Link href={"/our-office"}>Our Office</Link></li>
+                        <li><Link href={"/case-study"}>Case Study</Link></li>
+                        <li><Link href={"/case-details/whitehorse"}>Case Study Details</Link></li>
+                        <li><Link href={"/team"}>Team</Link></li>
+                        <li><Link href={"/team-details/jane-cooper"}>Team Details</Link></li>
+                        <li><Link href={"/our-clients"}>Our Clients</Link></li>
+                        <li><Link href={"/testimonials"}>Testimonial</Link></li>
+                        <li><Link href={"/pricing-table"}>Pricing Table</Link></li>
+                        <li><Link href={"/typography"}>Typography</Link></li>
+                        <li><Link href={"/404"}>404 Page</Link></li>
+                        <li><Link href={"/coming-soon"}>Coming Soon</Link></li>
                     </ul>
                 </li> */}
 
 
 
                 {/* <li className="menu-item-has-children">
-                    <Link to="#">Blog <FaAngleDown /></Link>
+                    <Link href="#">Blog <FaAngleDown /></Link>
                     <ul className="axil-submenu">
-                        <li><Link to={"/blog-grid"}>Blog</Link></li>
-                        <li><Link to={"/blog-details/1"}>Standard Post</Link></li>
-                        <li><Link to={"/blog-details/2"}>Gallery Post</Link></li>
-                        <li><Link to={"/blog-details/3"}>Video Post</Link></li>
-                         <li><Link to={"#"}>Audio Post</Link></li>
-                        <li><Link to={"#"}>Quote Post</Link></li> 
+                        <li><Link href={"/blog-grid"}>Blog</Link></li>
+                        <li><Link href={"/blog-details/1"}>Standard Post</Link></li>
+                        <li><Link href={"/blog-details/2"}>Gallery Post</Link></li>
+                        <li><Link href={"/blog-details/3"}>Video Post</Link></li>
+                         <li><Link href={"#"}>Audio Post</Link></li>
+                        <li><Link href={"#"}>Quote Post</Link></li> 
                     </ul>
                 </li> */}
-                <li><Link to={"/contact"}>Contact</Link></li>
+                <li><Link href={"/contact"}>Contact</Link></li>
             </ul>
         </nav>
     )

@@ -50,7 +50,7 @@ const ProjectDetails = () => {
                             {detailsProject.body.map((para, index) => (
                                 <p key={index} dangerouslySetInnerHTML={{__html: para}}></p>
                             ))}
-                            <Link to="#" className="axil-btn btn-fill-primary">Get it Now</Link>
+                            <Link href="#" className="axil-btn btn-fill-primary">Get it Now</Link>
                         </div>
                         <div className="col-lg-6 offset-xl-1">
                             <div className="why-choose-us">

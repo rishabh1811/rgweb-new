@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 import CaseStudyData from '../../data/casestudy/CaseStudyData.json';
 import Tilty from 'react-tilty';
 import CountUp from 'react-countup';
@@ -16,7 +16,7 @@ const CaseStudyProp = () => {
             <div className="col-lg-6">
                 <div className={`case-study-featured-thumb thumb-${data.id}`}>
                 <Tilty perspective={2000}>
-                    <img src={process.env.PUBLIC_URL + data.thumb} alt="Case Study" />
+                    <img src={data.thumb} alt="Case Study" />
                 </Tilty>
                 </div>
             </div>
@@ -26,7 +26,7 @@ const CaseStudyProp = () => {
                     <span className="subtitle">{data.subtitle}</span>
                     <h2 className="title">{data.title}</h2>
                     <p>{data.excerpt}</p>
-                    <Link to={process.env.PUBLIC_URL + `/case-details/${slugify(data.title)}`} className="axil-btn btn-fill-primary btn-large">Read Case Study</Link>
+                    <Link href={`/case-details/${slugify(data.title)}`} className="axil-btn btn-fill-primary btn-large">Read Case Study</Link>
                 </div>
                 <div className="case-study-counterup">
                     <div className="single-counterup">
@@ -68,7 +68,7 @@ const CaseStudyProp = () => {
             <div className="col-lg-6 offset-xl-1 order-lg-2">
                 <div className={`case-study-featured-thumb thumb-${data.id}`}>
                 <Tilty perspective={2000}>
-                    <img src={process.env.PUBLIC_URL + data.thumb} alt="Case Study" />
+                    <img src={data.thumb} alt="Case Study" />
                 </Tilty>
                 </div>
             </div>
@@ -78,7 +78,7 @@ const CaseStudyProp = () => {
                     <span className="subtitle">{data.subtitle}</span>
                     <h2 className="title">{data.title}</h2>
                     <p>{data.excerpt}</p>
-                    <Link to={process.env.PUBLIC_URL + `/case-details/${slugify(data.title)}`} className="axil-btn btn-fill-primary btn-large">Read Case Study</Link>
+                    <Link href={`/case-details/${slugify(data.title)}`} className="axil-btn btn-fill-primary btn-large">Read Case Study</Link>
                 </div>
                 <div className="case-study-counterup">
                     <div className="single-counterup">

@@ -6,7 +6,7 @@ const BlogAuthor = ({data}) => {
         <div className="blog-author">
             <div className="author">
                 <div className="author-thumb">
-                    <img src={process.env.PUBLIC_URL + `/${data.author_avatar}`} alt="Blog Author" />
+                    <img src={`/${data.author_avatar}`} alt="Blog Author" />
                 </div>
                 <div className="info">
                     <h5 className="title">{data.author_name}</h5>

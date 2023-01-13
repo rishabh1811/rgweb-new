@@ -1,28 +1,31 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import Link from 'next/link'
 import { FaFacebookF, FaTwitter, FaPinterestP, FaLinkedin, FaInstagram, FaVimeoV, FaDribbble, FaBehance, FaEnvelopeOpen } from "react-icons/fa";
 import ServiceData from "../../data/service/ServiceMain.json";
 import { slugify } from '../../utils';
+
 
 const getServiceData = ServiceData;
 
 const FooterOne = ({parentClass}) => {
     
     return (
+    
         <footer className={`footer-area ${parentClass}`}>
             <div className="container">
                 {/* SOCIAL MEDIA ICONS */}
                 {/* <div className="footer-top">
                     <div className="footer-social-link">
                         <ul className="list-unstyled">
-                            <li><Link to="https://facebook.com/"><FaFacebookF /></Link></li>
-                            <li><Link to="https://twitter.com/"><FaTwitter /></Link></li>
-                            <li><Link to="https://www.pinterest.com/"><FaPinterestP /></Link></li>
-                            <li><Link to="https://www.linkedin.com/"><FaLinkedin /></Link></li>
-                            <li><Link to="https://www.instagram.com/"><FaInstagram /></Link></li>
-                            <li><Link to="https://vimeo.com/"><FaVimeoV /></Link></li>
-                            <li><Link to="https://dribbble.com/"><FaDribbble /></Link></li>
-                            <li><Link to="https://www.behance.net/"><FaBehance /></Link></li>
+                            <li><Link href="https://facebook.com/"><FaFacebookF /></Link></li>
+                            <li><Link href="https://twitter.com/"><FaTwitter /></Link></li>
+                            <li><Link href="https://www.pinterest.com/"><FaPinterestP /></Link></li>
+                            <li><Link href="https://www.linkedin.com/"><FaLinkedin /></Link></li>
+                            <li><Link href="https://www.instagram.com/"><FaInstagram /></Link></li>
+                            <li><Link href="https://vimeo.com/"><FaVimeoV /></Link></li>
+                            <li><Link href="https://dribbble.com/"><FaDribbble /></Link></li>
+                            <li><Link href="https://www.behance.net/"><FaBehance /></Link></li>
                         </ul>
                     </div>
                 </div> */}
@@ -54,7 +57,7 @@ const FooterOne = ({parentClass}) => {
                                             <ul className="list-unstyled">
                                                 {getServiceData.slice(0, 6).map((data, index) => (
                                                     <li key={index}>
-                                                        <Link to={`/service-details/${slugify(data.title)}`}>{data.title}</Link>
+                                                        <Link href={`/service-details/${slugify(data.title)}`}>{data.title}</Link>
                                                     </li>
                                                 ))}
                                             </ul>
@@ -66,9 +69,9 @@ const FooterOne = ({parentClass}) => {
                                         <h6 className="widget-title">Resourses</h6>
                                         <div className="footer-menu-link">
                                             <ul className="list-unstyled">
-                                                <li><Link to={"/blog-grid"}>Blog</Link></li>
-                                                <li> <Link to={"/case-study"}>Case Studies</Link></li>
-                                                <li><Link to={"/project-grid-one"}>Portfolio</Link></li>
+                                                <li><Link href={"/blog-grid"}>Blog</Link></li>
+                                                <li> <Link href={"/case-study"}>Case Studies</Link></li>
+                                                <li><Link href={"/project-grid-one"}>Portfolio</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -78,9 +81,9 @@ const FooterOne = ({parentClass}) => {
                                         <h6 className="widget-title">Support</h6>
                                         <div className="footer-menu-link">
                                             <ul className="list-unstyled">
-                                                <li><Link to={"/contact"}>Contact</Link></li>
-                                                <li> <Link to={"/privacy-policy"}>Privacy Policy</Link></li>
-                                                <li><Link to={"/terms-use"}>Terms of Use</Link></li>
+                                                <li><Link href={"/contact"}>Contact</Link></li>
+                                                <li> <Link href={"/privacy-policy"}>Privacy Policy</Link></li>
+                                                <li><Link href={"/terms-use"}>Terms of Use</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -99,8 +102,8 @@ const FooterOne = ({parentClass}) => {
                         <div className="col-md-6">
                             <div className="footer-bottom-link">
                                 <ul className="list-unstyled">
-                                    <li><Link to={"/privacy-policy"}>Privacy Policy</Link></li>
-                                    <li><Link to={"/terms-use"}>Terms of Use</Link></li>
+                                    <li><Link href={"/privacy-policy"}>Privacy Policy</Link></li>
+                                    <li><Link href={"/terms-use"}>Terms of Use</Link></li>
                                 </ul>
                             </div>
                         </div>

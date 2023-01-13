@@ -2,7 +2,7 @@ import React from 'react';
 import SectionTitle from '../../elements/section-title/SectionTitle';
 import ProjectPropTwo from './itemProp/ProjectPropTwo';
 import ProjectData from "../../data/project/ProjectData.json";
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 
 const portfolioData = ProjectData;
 
@@ -22,11 +22,11 @@ const ProjectFour = () => {
                     <span className="subtitle">branding, design</span>
                     <h3 className="title">Godaddy- Online platform and website design</h3>
                     <div className="brand-logo">
-                        <img src={process.env.PUBLIC_URL + "/images/project/godaddy.png"} alt="Godaddy" />
+                        <img src={"/images/project/godaddy.png"} alt="Godaddy" />
                     </div>
                 </div>
                 <div className="thumbnail">
-                    <img src={process.env.PUBLIC_URL + "/images/project/mobile-mockup.png"} alt="Mockup" />
+                    <img src={"/images/project/mobile-mockup.png"} alt="Mockup" />
                 </div>
             </div>
 
@@ -39,7 +39,7 @@ const ProjectFour = () => {
 
             </div>
             <div className="more-project-btn">
-                <Link to={process.env.PUBLIC_URL + "/project-grid-two"} className="axil-btn btn-fill-white">Discover More Projects</Link>
+                <Link href={"/project-grid-two"} className="axil-btn btn-fill-white">Discover More Projects</Link>
             </div>
         </div>
     </div>

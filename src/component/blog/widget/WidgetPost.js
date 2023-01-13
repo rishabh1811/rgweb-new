@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 import BlogData from "../../../data/blog/BlogData.json";
 
 
@@ -13,13 +13,13 @@ const WidgetPost = () => {
         {allBlogData.slice(0, 3).map((data, index) => (
             <div className="single-post" key={index}>
                 <div className="post-thumbnail">
-                    <Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`}>
+                    <Link href={`/blog-details/${data.id}`}>
                         <img src={`${process.env.PUBLIC_URL}/${data.thumb}`} alt="Blog" />
                     </Link>
                 </div>
                 <div className="post-content">
                     <h6 className="title">
-                    <Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`}>
+                    <Link href={`/blog-details/${data.id}`}>
                         {data.title}
                     </Link>
                     </h6>

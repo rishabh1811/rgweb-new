@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 import CounterUp from './CounterUp';
 
 
@@ -13,7 +13,7 @@ const CounterUpTwo = () => {
                             <span className="subtitle">Experts in field</span>
                             <h2>What makes us special?</h2>
                             <p className="mb--50">In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus.</p>
-                            <Link to={process.env.PUBLIC_URL + "/contact"} className="axil-btn btn-large btn-fill-primary">Careers</Link>
+                            <Link href={"/contact"} className="axil-btn btn-large btn-fill-primary">Careers</Link>
                         </div>
                     </div>
                     <div className="col-lg-6 offset-xl-1">

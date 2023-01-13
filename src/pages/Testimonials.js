@@ -43,7 +43,7 @@ const Testimonials = () => {
                             </div>
                             <div className="col-lg-4">
                                 <div className="review-site-logo">
-                                    <a href="https://www.google.com/"><img src={process.env.PUBLIC_URL + "/images/icon/google.png"} alt="Google" /></a>
+                                    <a href="https://www.google.com/"><img src={"/images/icon/google.png"} alt="Google" /></a>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ const Testimonials = () => {
                             </div>
                             <div className="col-lg-4">
                                 <div className="review-site-logo">
-                                    <a href="https://www.facebook.com/"><img src={process.env.PUBLIC_URL + "/images/icon/fb.png"} alt="Facebook" /></a>
+                                    <a href="https://www.facebook.com/"><img src={"/images/icon/fb.png"} alt="Facebook" /></a>
                                 </div>
                             </div>
                         </div>
@@ -76,8 +76,8 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <ul className="shape-group-11 list-unstyled">
-                        <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/line-6.png"} alt="line" /></li>
-                        <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/circle-3.png"} alt="line" /></li>
+                        <li className="shape shape-1"><img src={"/images/others/line-6.png"} alt="line" /></li>
+                        <li className="shape shape-2"><img src={"/images/others/circle-3.png"} alt="line" /></li>
                     </ul>
                 </div>
 
@@ -95,7 +95,7 @@ const Testimonials = () => {
                             </div>
                             <div className="col-lg-4">
                                 <div className="review-site-logo">
-                                    <a href="https://www.yelp.com/"><img src={process.env.PUBLIC_URL + "/images/icon/yelp.png"} alt="Yelp" /></a>
+                                    <a href="https://www.yelp.com/"><img src={"/images/icon/yelp.png"} alt="Yelp" /></a>
                                 </div>
                             </div>
                         </div>

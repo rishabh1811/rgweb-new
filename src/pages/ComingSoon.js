@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../common/SEO';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 import { FaEnvelopeOpen } from "react-icons/fa";
 import Countdown from 'react-countdown';
 
@@ -50,8 +50,8 @@ const ComingSoon = () => {
                         <div className="row align-items-center justify-content-center">
                         <div className="col-12">
                             <div className="site-logo">
-                                <Link to={process.env.PUBLIC_URL + "/"} className="logo-light"><img src={process.env.PUBLIC_URL + "/images/logo-2.svg"} alt="Logo" /></Link>
-                                <Link to={process.env.PUBLIC_URL + "/"} className="logo-dark"><img src={process.env.PUBLIC_URL + "/images/logo-3.svg"} alt="Logo" /></Link>
+                                <Link href={"/"} className="logo-light"><img src={"/images/logo-2.svg"} alt="Logo" /></Link>
+                                <Link href={"/"} className="logo-dark"><img src={"/images/logo-3.svg"} alt="Logo" /></Link>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-8">
@@ -70,17 +70,17 @@ const ComingSoon = () => {
                         </div>
                         <div className="col-xl-6">
                             <div className="thumbnail">
-                                <img src={process.env.PUBLIC_URL + "/images/others/coming-soon.png"} alt="Coming Soon" />
+                                <img src={"/images/others/coming-soon.png"} alt="Coming Soon" />
                             </div>
                         </div>
                         </div>
                     </div>
                     <ul className="shape-group-8 list-unstyled">
                         <li className="shape shape-2">
-                            <img src={process.env.PUBLIC_URL + "/images/others/bubble-28.png"} alt="Bubble" />
+                            <img src={"/images/others/bubble-28.png"} alt="Bubble" />
                         </li>
                         <li className="shape shape-3">
-                            <img src={process.env.PUBLIC_URL + "/images/others/line-4.png"} alt="Line" />
+                            <img src={"/images/others/line-4.png"} alt="Line" />
                         </li>
                     </ul>
                 </div>

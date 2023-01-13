@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import Link from 'next/link'
+import Link from 'next/link'
+
 import ServiceData from "../../data/service/ServiceMain.json";
 import { slugify } from '../../utils';
 
@@ -28,14 +30,14 @@ const ServicePropOne = ({colSize, serviceStyle, itemShow, marginTop}) => {
 				<div className={`${colSize} ${topMargin(index)}`} key={index} >
 					<div className={`services-grid ${serviceStyle}`}>
 						<div className="thumbnail">
-							<img src={process.env.PUBLIC_URL + data.image} alt="icon" />
+							<img src={data.image} alt="icon" />
 						</div>
 						<div className="content">
 							<h5 className="title"> 
-								<Link to={process.env.PUBLIC_URL + `/service-details/${slugify(data.title)}`}>{data.title}</Link>
+								<Link href={`/service-details/${slugify(data.title)}`}>{data.title}</Link>
 							</h5>
 							<p>{data.description}</p>
-							{/* <Link to={process.env.PUBLIC_URL + `/service-details/${slugify(data.title)}`} className="more-btn">Find out more</Link> */}
+							{/* <Link href={`/service-details/${slugify(data.title)}`} className="more-btn">Find out more</Link> */}
 						</div>
 					</div>
 			 	</div>

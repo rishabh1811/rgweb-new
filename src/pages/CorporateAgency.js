@@ -36,9 +36,9 @@ const CorporateAgency = () => {
                 </div>
             </div>
             <ul className="shape-group-7 list-unstyled">
-                <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-2.png"} alt="circle" /></li>
-                <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-2.png"} alt="Line" /></li>
-                <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"} alt="Line" /></li>
+                <li className="shape shape-1"><img src={"/images/others/circle-2.png"} alt="circle" /></li>
+                <li className="shape shape-2"><img src={"/images/others/bubble-2.png"} alt="Line" /></li>
+                <li className="shape shape-3"><img src={"/images/others/bubble-1.png"} alt="Line" /></li>
             </ul>
 
         </div>

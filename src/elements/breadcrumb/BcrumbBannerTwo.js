@@ -15,7 +15,7 @@ const BcrumbBannerTwo = ({title, paragraph, mainThumb}) => {
                     <div className="col-lg-6">
                         <div className="banner-thumbnail">
                             <Tilty perspective={2000} reset={false}>
-                                <img src={process.env.PUBLIC_URL + mainThumb} alt="Illustration" />
+                                <img src={mainThumb} alt="Illustration" />
                             </Tilty>
                         </div>
                     </div>
@@ -23,13 +23,13 @@ const BcrumbBannerTwo = ({title, paragraph, mainThumb}) => {
             </div>
             <ul className="shape-group-8 list-unstyled">
                 <li className="shape shape-1">
-                    <img src={process.env.PUBLIC_URL + "/images/others/bubble-9.png"} alt="Bubble" />
+                    <img src={"/images/others/bubble-9.png"} alt="Bubble" />
                 </li>
                 <li className="shape shape-2">
-                    <img src={process.env.PUBLIC_URL + "/images/others/bubble-20.png"} alt="Bubble" />
+                    <img src={"/images/others/bubble-20.png"} alt="Bubble" />
                 </li>
                 <li className="shape shape-3">
-                    <img src={process.env.PUBLIC_URL + "/images/others/line-4.png"} alt="Line" />
+                    <img src={"/images/others/line-4.png"} alt="Line" />
                 </li>
             </ul>
         </div>

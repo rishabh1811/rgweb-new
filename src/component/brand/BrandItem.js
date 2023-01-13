@@ -34,7 +34,7 @@ const BrandItem = () => {
             {Data.map((data, index) => (
                 <div className="col-lg-3 col-6" key={index}>
                     <div className="brand-grid">
-                        <img src={process.env.PUBLIC_URL + data.image} alt="Brand" />
+                        <img src={data.image} alt="Brand" />
                     </div>
                 </div>
             ))}

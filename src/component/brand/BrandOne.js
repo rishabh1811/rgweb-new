@@ -19,7 +19,7 @@ const BrandOne = () => {
             </div>
         </div>
         <ul className="list-unstyled shape-group-10">
-            <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/line-9.png"} alt="Circle" /></li>
+            <li className="shape shape-1"><img src={"/images/others/line-9.png"} alt="Circle" /></li>
         </ul>
     </div>
     )

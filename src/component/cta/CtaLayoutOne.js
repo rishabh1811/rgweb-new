@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import Link from 'next/link'
+import Link from 'next/link'
+
 
 
 const CtaLayoutOne = () => {
@@ -12,7 +14,7 @@ const CtaLayoutOne = () => {
                     <div className="section-heading heading-light">
                         <span className="subtitle">Let's Work Together</span>
                         <h2 className="title">Want to grow your business online?</h2>
-                        <Link to={"/contact"} className="axil-btn btn-large btn-fill-white">
+                        <Link href={"/contact"} className="axil-btn btn-large btn-fill-white">
                             Estimate Project
                         </Link>
                     </div>

@@ -21,7 +21,7 @@ const ProcessOne = () => {
                     <div key={data.id} className={`process-work ${(data.id % 2  === 0) ? "content-reverse" : ""}`}>
                         <Tilty perspective={2000}>
                             <div className="thumbnail">
-                                <img src={process.env.PUBLIC_URL + data.thumb} alt="Thumbnail" />
+                                <img src={data.thumb} alt="Thumbnail" />
                             </div>
                         </Tilty>
                     <div className="content">
@@ -33,12 +33,12 @@ const ProcessOne = () => {
                 ))}
             </div>
             <ul className="shape-group-17 list-unstyled">
-                <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/bubble-24.png"} alt="Bubble" /></li>
-                <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-23.png"} alt="Bubble" /></li>
-                <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/line-4.png"} alt="Line" /></li>
-                <li className="shape shape-4"><img src={process.env.PUBLIC_URL + "/images/others/line-5.png"} alt="Line" /></li>
-                <li className="shape shape-5"><img src={process.env.PUBLIC_URL + "/images/others/line-4.png"} alt="Line" /></li>
-                <li className="shape shape-6"><img src={process.env.PUBLIC_URL + "/images/others/line-5.png"} alt="Line" /></li>
+                <li className="shape shape-1"><img src={"/images/others/bubble-24.png"} alt="Bubble" /></li>
+                <li className="shape shape-2"><img src={"/images/others/bubble-23.png"} alt="Bubble" /></li>
+                <li className="shape shape-3"><img src={"/images/others/line-4.png"} alt="Line" /></li>
+                <li className="shape shape-4"><img src={"/images/others/line-5.png"} alt="Line" /></li>
+                <li className="shape shape-5"><img src={"/images/others/line-4.png"} alt="Line" /></li>
+                <li className="shape shape-6"><img src={"/images/others/line-5.png"} alt="Line" /></li>
             </ul>
         </div>
     )

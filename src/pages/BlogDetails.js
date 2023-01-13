@@ -116,7 +116,7 @@ const BlogDetails = () => {
                                             {detailsBlog.features_img.map((img, i) => (
                                                 <div className="col-6" key={i}>
                                                     <div className="featured-img">
-                                                        <img src={process.env.PUBLIC_URL + img} alt="Blog" />
+                                                        <img src={img} alt="Blog" />
                                                     </div>
                                                 </div>
                                             ))}

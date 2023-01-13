@@ -11,7 +11,9 @@ import ServiceData from "../data/service/ServiceMain.json";
 import { slugify } from '../utils';
 import AboutThree from '../component/about/AboutThree';
 
-const allData = ServiceData;
+const allData = ServiceData
+
+
 
 
 const ServiceOne = () => {
@@ -40,7 +42,6 @@ const ServiceOne = () => {
             />
             <div className="service-scroll-navigation-area">
 
-                {/* Service Nav */}
                 
                 <nav id="onepagenav" className="service-scroll-nav navbar onepagefixed">
                     <div className="container">
@@ -173,5 +174,7 @@ const ServiceOne = () => {
         </>
     )
 }
+
+
 
 export default ServiceOne;

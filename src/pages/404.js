@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 import HeaderOne from '../common/header/HeaderOne';
 import SEO from '../common/SEO';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
@@ -9,7 +9,7 @@ const ErrorPage = () => {
 
     return (
         <>
-        <SEO title="404 Not Found" />
+        {/* <SEO title="404 Not Found" /> */}
         <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
@@ -21,14 +21,14 @@ const ErrorPage = () => {
                             <div className="content">
                                 <h2 className="title">Page not found</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                                <Link to={process.env.PUBLIC_URL + "/"} className="axil-btn btn-fill-primary">Go Back</Link>
+                                <Link href={"/"} className="axil-btn btn-fill-primary">Go Back</Link>
                             </div>
                         </AnimationOnScroll>
                         </div>
                         <div className="col-lg-6">
                         <AnimationOnScroll  animateIn="zoomIn" duration={1} delay={300} animateOnce={true}>
                             <div className="thumbnail">
-                                <img src={process.env.PUBLIC_URL + "/images/others/404.png"} alt="404" />
+                                <img src={"/images/others/404.png"} alt="404" />
                             </div>
                         </AnimationOnScroll>
                         </div>
@@ -36,13 +36,13 @@ const ErrorPage = () => {
                     </div>
                     <ul className="shape-group-8 list-unstyled">
                         <li className="shape shape-1">
-                            <img src={process.env.PUBLIC_URL + "/images/others/bubble-9.png"} alt="Bubble" />
+                            <img src={"/images/others/bubble-9.png"} alt="Bubble" />
                         </li>
                         <li className="shape shape-2">
-                            <img src={process.env.PUBLIC_URL + "/images/others/bubble-27.png"} alt="Bubble" />
+                            <img src={"/images/others/bubble-27.png"} alt="Bubble" />
                         </li>
                         <li className="shape shape-3">
-                            <img src={process.env.PUBLIC_URL + "/images/others/line-4.png"} alt="Line" />
+                            <img src={"/images/others/line-4.png"} alt="Line" />
                         </li>
                     </ul>
                 </div>

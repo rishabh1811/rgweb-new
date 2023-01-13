@@ -46,7 +46,7 @@ const CaseDetails = () => {
                         <div className="col-lg-6">
                                 <div className="case-study-featured-thumb">
                                 <Tilty perspective={2000}>
-                                    <img src={process.env.PUBLIC_URL + detailsCase.thumb} alt="Case Study" />
+                                    <img src={detailsCase.thumb} alt="Case Study" />
                                 </Tilty>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@ const CaseDetails = () => {
                                 </div>
                                 <div className="about-expert">
                                     <div className="thumbnail">
-                                        <img src={process.env.PUBLIC_URL + "/images/about/about-1.png"} alt="Thumbnail" />
+                                        <img src={"/images/about/about-1.png"} alt="Thumbnail" />
                                         <div className="popup-video">
                                             <button className="play-btn" onClick={ () => setToggler(!toggler) }><FaPlay /></button>
                                         </div>
@@ -83,8 +83,8 @@ const CaseDetails = () => {
                         </div>
                     </div>
                     <ul className="shape-group-10 list-unstyled">
-                        <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-2.png"} alt="Line" /></li>
-                        <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"} alt="Line" /></li>
+                        <li className="shape shape-2"><img src={"/images/others/bubble-2.png"} alt="Line" /></li>
+                        <li className="shape shape-3"><img src={"/images/others/bubble-1.png"} alt="Line" /></li>
                     </ul>
                 </div>
 

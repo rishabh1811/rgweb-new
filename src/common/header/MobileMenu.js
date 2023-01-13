@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import Link from 'next/link'
+import Link from "next/link"
 import { FaTimes } from "react-icons/fa";
 import Nav from './Nav';
 
@@ -10,7 +11,7 @@ const MobileMenu = ({MobileHandler}) => {
             <div className="mobilemenu-inner">
                 <div className="mobilemenu-header">
                     <div className="mobile-nav-logo">
-                        <Link to={"/"}>
+                        <Link href={"/"}>
                             <img className="light-mode" src={"/images/logo-2.svg"} alt="Site Logo" />
                             <img className="dark-mode" src={"/images/logo-2.svg"} alt="Site Logo" />
                         </Link>

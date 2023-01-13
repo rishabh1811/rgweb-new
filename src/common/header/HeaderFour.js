@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../../elements/logo/Logo';
 import Nav from '../../common/header/Nav';
 import StickyHeader from './StickyHeader';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 import SwitcherHeader from '../../elements/switcher/SwitcherHeader';
 import MobileMenu from './MobileMenu';
 
@@ -45,7 +45,7 @@ const HeaderFour = () => {
                             <div className="header-action">
                                 <ul className="list-unstyled">
                                     <li className="header-btn">
-                                        <Link to={"/contact"} className="axil-btn btn-fill-white">Let's Talk</Link>
+                                        <Link href={"/contact"} className="axil-btn btn-fill-white">Let's Talk</Link>
                                     </li>
                                     <li className="mobile-menu-btn sidemenu-btn d-lg-none d-block">
                                         <button className="btn-wrap" onClick={MobileMenuHandler}>

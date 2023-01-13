@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 
 
 const FooterTwo = () => {
@@ -17,8 +17,8 @@ const FooterTwo = () => {
                     <div className="col-md-6">
                     <div className="footer-bottom-link">
                         <ul className="list-unstyled">
-                            <li><Link to={"/privacy-policy"}>Privacy Policy</Link></li>
-                            <li><Link to={"/terms-use"}>Terms of Use</Link></li>
+                            <li><Link href={"/privacy-policy"}>Privacy Policy</Link></li>
+                            <li><Link href={"/terms-use"}>Terms of Use</Link></li>
                         </ul>
                     </div>
                     </div>

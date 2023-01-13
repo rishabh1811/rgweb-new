@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+import Link from 'next/link'
 import Tilty from 'react-tilty';
 
 
@@ -13,13 +13,13 @@ const BannerFour = () => {
                     <p>Create live segments and target the right people 
                         for messages based on their behaviors.</p>
                     <div>
-                        <Link to={process.env.PUBLIC_URL + "/project-grid-one"} className="axil-btn btn-fill-primary btn-large">View Showcase</Link>
+                        <Link href={"/project-grid-one"} className="axil-btn btn-fill-primary btn-large">View Showcase</Link>
                     </div>
                 </div>
                 <div className="banner-thumbnail">
                     <div className="large-thumb">
                         <Tilty perspective={3000}>
-                            <img src={process.env.PUBLIC_URL + "/images/banner/banner-thumb-7.png"} alt="Shape" />
+                            <img src={"/images/banner/banner-thumb-7.png"} alt="Shape" />
                         </Tilty>
                     </div>
                 </div>
@@ -34,10 +34,10 @@ const BannerFour = () => {
             </div>
             <ul className="list-unstyled shape-group-19">
                 <li className="shape shape-1">
-                    <img src={process.env.PUBLIC_URL + "/images/others/bubble-29.png"} alt="Bubble" />
+                    <img src={"/images/others/bubble-29.png"} alt="Bubble" />
                 </li>
                 <li className="shape shape-2">
-                    <img src={process.env.PUBLIC_URL + "/images/others/line-7.png"} alt="Bubble" />
+                    <img src={"/images/others/line-7.png"} alt="Bubble" />
                 </li>
             </ul>
         </div>

@@ -34,7 +34,7 @@ const PricingTable = () => {
                         <PricingOne />
                     </div>
                     <ul className="shape-group-3 list-unstyled">
-                        <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-4.png"} alt="shape" /></li>
+                        <li className="shape shape-2"><img src={"/images/others/bubble-4.png"} alt="shape" /></li>
                     </ul>
                 </div>
                 <FaqOne />
